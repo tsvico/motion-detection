@@ -1,0 +1,5 @@
+project(move)  
+find_package(OpenCV REQUIRED)  
+add_executable(move move)
+target_link_libraries(move ${OpenCV_LIBS})  
+cmake_minimum_required(VERSION 2.8)
